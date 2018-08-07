@@ -9,34 +9,26 @@ class App extends Component {
   render() {
     return (
       <div>
-      <NavBar />
-     	<div id="container" class="container container-fluid">		       
-           <Cover />
-            <Content />
-            <Footer />       
-        </div>  
-      </div>   
+        <NavBar />		       
+        <Content />
+        <Footer />       
+      </div>       
     );
   }
 }
 
 
-
-class Cover extends Component{
-  render(){
-    return(
-     <div className="Cover">
-       <img src={coverImg} alt="" className="img-responsive"/>
-     </div>
-    );
-  }
-}
 
 class Content extends Component{
   render(){
     return(
-     <div className="content">
-       <p>      محتوى فارغ       </p>
+      <div id="container" class="container container-fluid">
+        <div className="Cover">
+          <img src={coverImg} alt="" className="img-responsive"/>
+        </div>
+        <div className="content">
+          <p>      محتوى فارغ       </p>
+        </div>
      </div>
     );
   }
