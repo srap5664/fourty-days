@@ -12,6 +12,7 @@ import SignUp from "./SignUp";
 import LogIn from "./LogIn";
 import Profile from "./Profile";
 import Courses from "./Courses";
+import details from './details';
 
 
 
@@ -43,6 +44,7 @@ class App extends Component{
                     <Route path="/LogIn" component={LogIn}/>
                     <Route path="/Profile" component={Profile}/>
                     <Route path="/Courses" component={Courses}/>
+                     <Route path="/details" component={details}/>
                   </div>
                   <Footer />
               </div>
