@@ -1,17 +1,5 @@
-img{
-  width:100%;
-  border-radius: 1%;
-}
 
-.content{
-  margin-top: 20px;
-  padding: 40px;
-  text-align: center;
-}
-.custom-picture{
-  width: 60px;
-  height: 60px;
-}
-.thumbnail{
-  text-align: center;
+.logo_img{
+  max-width:100px; 
+  margin-top: -7px;
 }
