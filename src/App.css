@@ -1,17 +1,4 @@
-#container{
-  margin-top: 50px;
-}
 img{
   width:100%;
   border-radius: 1%;
-}
-
-.Footer{
-  background-color: black;
-  height: 30px;
-  text-align: center;
-  
-}
-#Footer-text{
-  color: aliceblue;
 }

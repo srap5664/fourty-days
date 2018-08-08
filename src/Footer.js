@@ -6,8 +6,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 class Footer extends Component{
     render(){
       return(
-       <div className="Footer">
-         <p id="Footer-text">جميع الحقوق محفوظه</p>
+       <div className="container Footer">
+         
        </div>
       );
     }

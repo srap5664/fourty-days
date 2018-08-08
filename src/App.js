@@ -17,8 +17,6 @@ class App extends Component {
   }
 }
 
-
-
 class Content extends Component{
   render(){
     return(
