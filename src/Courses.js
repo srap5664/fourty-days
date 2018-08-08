@@ -26,8 +26,10 @@ class Courses extends Component {
 
 <div className="column"><h3>
 
+
 <div className="polaroid">
 <a href="#">
+
 
 <img src={test} alt="test"></img></a>
 <div className="container">
@@ -79,7 +81,6 @@ class Courses extends Component {
            </HashRouter> 
 
      </div>  
-        
     );
   }
 }
