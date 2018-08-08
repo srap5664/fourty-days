@@ -5,28 +5,16 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 class SignUp extends Component {
   render() {
     return (
-    <div className="span3 SignUp">
-      <h2>Sign Up</h2>
-      <form>
-        <label>First Name</label>
-        <input type="text" name="firstname" className="span3" />
-        <label>Last Name</label>
-        <input type="text" name="lastname" className="span3" />
-        <label>Email Address</label>
-        <input type="email" name="email" className="span3" />
-        <label>Username</label>
-        <input type="text" name="username" className="span3" />
-        <label>Password</label>
-        <input type="password" name="password" className="span3" /> 
-        <label><input type="checkbox" name="terms" /> I agree with the <a href="#">Terms and Conditions</a>.</label>
-        <input type="submit" value="Sign up" className="btn btn-primary pull-right" />
-        <div className="clearfix"></div>
-      </form>
-    </div> 
-        
-href="#" class="btn btn-lg btn-info btn-block">Google</a>
-         </div>
-       </div>
+      <div class="main">
+              <h3>تسجيل مستخدم جديد</h3>
+        <div class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6">
+            <a href="#" class="btn btn-lg btn-primary btn-block">Facebook</a>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6">
+            <a href="#" class="btn btn-lg btn-info btn-block">Google</a>
+          </div>
+        </div>
        <form action="">
          <div className="form-group center">
           <label for="username" className="col-4 col-form-label">أسم المستخدم*</label>
