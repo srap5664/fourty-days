@@ -44,6 +44,7 @@ class App extends Component{
                     <Route path="/Profile" component={Profile}/>
                     <Route path="/Courses" component={Courses}/>
                   </div>
+                  <Footer />
               </div>
             </HashRouter>  
     );
@@ -54,8 +55,25 @@ class App extends Component{
 class Footer extends Component{
   render(){
     return(
-     <div className="container Footer">
-       
+     <div className="Footer row">
+      <div className="col-md-4">
+        <ul className="Footer-list">
+          <li>تواصل معنا</li>
+          <li>من نحن</li>       
+        </ul>
+      </div>
+      <div className="col-md-4">
+        <ul className="Footer-list">
+          <li>الدعم الفني</li>
+          <li>المساهمة</li>       
+        </ul>
+      </div>
+      <div className="col-md-4">
+        <ul className="Footer-list">
+          <li>خدمات الدفع</li>
+          <li>الخدمات اللوجستيه</li>       
+        </ul>
+      </div>
      </div>
     );
   }
