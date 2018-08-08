@@ -5,9 +5,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 class LogIn extends Component {
   render() {
     return (
-        <div>
-        
-       </div>  
+   <div></div>
     );
   }
 }
